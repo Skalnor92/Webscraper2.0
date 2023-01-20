@@ -13,7 +13,7 @@ public class Main {
         webClient.getOptions().setThrowExceptionOnScriptError(false);
         webClient.getOptions().setJavaScriptEnabled(false);
         try {
-            HtmlPage page = webClient.getPage("https://foodnetwork.co.uk/italian-family-dinners/");
+            HtmlPage page = webClient.getPage("https://oag.ca.gov/privacy/databreach/list/");
 
             webClient.getCurrentWindow().getJobManager().removeAllJobs();
             webClient.close();

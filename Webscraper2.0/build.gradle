@@ -1,5 +1,9 @@
 plugins {
+    id 'application'
     id 'java'
+}
+application {
+    mainClass = 'Main'
 }
 
 group 'org.example'
